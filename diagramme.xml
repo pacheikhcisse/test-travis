@@ -1,0 +1,583 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_DrRfQGImEeaQWYccf8TWlQ" name="model">
+  <eAnnotations xmi:id="_DrRfQWImEeaQWYccf8TWlQ" source="genmymodel">
+    <details xmi:id="_DrRfQmImEeaQWYccf8TWlQ" key="uuid" value="_NgAJMFmVEeaQF8q9ZsVYhQ"/>
+    <details xmi:id="_DrRfQ2ImEeaQWYccf8TWlQ" key="author" value="pacheikh"/>
+  </eAnnotations>
+  <packageImport xmi:id="_DrRfRGImEeaQWYccf8TWlQ">
+    <eAnnotations xmi:id="_DrRfRWImEeaQWYccf8TWlQ" source="genmymodel">
+      <details xmi:id="_DrRfRmImEeaQWYccf8TWlQ" key="uuid" value="_NgAwQFmVEeaQF8q9ZsVYhQ"/>
+    </eAnnotations>
+    <importedPackage href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#/"/>
+  </packageImport>
+  <packageImport xmi:id="_DrRfR2ImEeaQWYccf8TWlQ">
+    <eAnnotations xmi:id="_DrRfSGImEeaQWYccf8TWlQ" source="genmymodel">
+      <details xmi:id="_DrRfSWImEeaQWYccf8TWlQ" key="uuid" value="_NgAwQVmVEeaQF8q9ZsVYhQ"/>
+    </eAnnotations>
+    <importedPackage href="pathmap://GENMYMODEL_LIBRARIES/GenMyModelPrimitiveTypes.library.uml#/"/>
+  </packageImport>
+  <packagedElement xsi:type="uml:Class" xmi:id="_DrRfSmImEeaQWYccf8TWlQ" name="Administratif">
+    <eAnnotations xmi:id="_DrRfS2ImEeaQWYccf8TWlQ" source="genmymodel">
+      <details xmi:id="_DrRfTGImEeaQWYccf8TWlQ" key="uuid" value="_bDz2MERJEDSBWNHb1Ogeow"/>
+    </eAnnotations>
+    <ownedAttribute xmi:id="_DrRfTWImEeaQWYccf8TWlQ" name="prenom" visibility="private">
+      <eAnnotations xmi:id="_DrRfTmImEeaQWYccf8TWlQ" source="genmymodel">
+        <details xmi:id="_DrRfT2ImEeaQWYccf8TWlQ" key="uuid" value="_urr0sERJEDSBWNHb1Ogeow"/>
+      </eAnnotations>
+      <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_DrRfUGImEeaQWYccf8TWlQ" name="nom" visibility="private">
+      <eAnnotations xmi:id="_DrRfUWImEeaQWYccf8TWlQ" source="genmymodel">
+        <details xmi:id="_DrRfUmImEeaQWYccf8TWlQ" key="uuid" value="_wSQw8ERJEDSBWNHb1Ogeow"/>
+      </eAnnotations>
+      <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_DrRfU2ImEeaQWYccf8TWlQ" name="telephone" visibility="private">
+      <eAnnotations xmi:id="_DrRfVGImEeaQWYccf8TWlQ" source="genmymodel">
+        <details xmi:id="_DrRfVWImEeaQWYccf8TWlQ" key="uuid" value="_xd_kQERJEDSBWNHb1Ogeow"/>
+      </eAnnotations>
+      <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_DrRfVmImEeaQWYccf8TWlQ" name="email" visibility="private">
+      <eAnnotations xmi:id="_DrRfV2ImEeaQWYccf8TWlQ" source="genmymodel">
+        <details xmi:id="_DrRfWGImEeaQWYccf8TWlQ" key="uuid" value="_yX6O0ERJEDSBWNHb1Ogeow"/>
+      </eAnnotations>
+      <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_DrRfWWImEeaQWYccf8TWlQ" name="CV" visibility="private">
+      <eAnnotations xmi:id="_DrRfWmImEeaQWYccf8TWlQ" source="genmymodel">
+        <details xmi:id="_DrRfW2ImEeaQWYccf8TWlQ" key="uuid" value="_0rZUYERJEDSBWNHb1Ogeow"/>
+      </eAnnotations>
+      <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//String"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Class" xmi:id="_DrRfXGImEeaQWYccf8TWlQ" name="ChefDepartement">
+    <eAnnotations xmi:id="_DrRfXWImEeaQWYccf8TWlQ" source="genmymodel">
+      <details xmi:id="_DrRfXmImEeaQWYccf8TWlQ" key="uuid" value="_dnbpgERJEDSBWNHb1Ogeow"/>
+    </eAnnotations>
+    <generalization xmi:id="_DrRfX2ImEeaQWYccf8TWlQ" general="_DrRfSmImEeaQWYccf8TWlQ">
+      <eAnnotations xmi:id="_DrRfYGImEeaQWYccf8TWlQ" source="genmymodel">
+        <details xmi:id="_DrRfYWImEeaQWYccf8TWlQ" key="uuid" value="_m5rQ8ERJEDSBWNHb1Ogeow"/>
+      </eAnnotations>
+    </generalization>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Class" xmi:id="_DrRfYmImEeaQWYccf8TWlQ" name="Auditeur">
+    <eAnnotations xmi:id="_DrRfY2ImEeaQWYccf8TWlQ" source="genmymodel">
+      <details xmi:id="_DrRfZGImEeaQWYccf8TWlQ" key="uuid" value="_fLmK8ERJEDSBWNHb1Ogeow"/>
+    </eAnnotations>
+    <generalization xmi:id="_DrRfZWImEeaQWYccf8TWlQ" general="_DrRfSmImEeaQWYccf8TWlQ">
+      <eAnnotations xmi:id="_DrRfZmImEeaQWYccf8TWlQ" source="genmymodel">
+        <details xmi:id="_DrRfZ2ImEeaQWYccf8TWlQ" key="uuid" value="_ncnl8ERJEDSBWNHb1Ogeow"/>
+      </eAnnotations>
+    </generalization>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Class" xmi:id="_DrRfaGImEeaQWYccf8TWlQ" name="Surveillant">
+    <eAnnotations xmi:id="_DrRfaWImEeaQWYccf8TWlQ" source="genmymodel">
+      <details xmi:id="_DrRfamImEeaQWYccf8TWlQ" key="uuid" value="_gQJYMERJEDSBWNHb1Ogeow"/>
+    </eAnnotations>
+    <generalization xmi:id="_DrRfa2ImEeaQWYccf8TWlQ" general="_DrRfSmImEeaQWYccf8TWlQ">
+      <eAnnotations xmi:id="_DrRfbGImEeaQWYccf8TWlQ" source="genmymodel">
+        <details xmi:id="_DrRfbWImEeaQWYccf8TWlQ" key="uuid" value="_n_214ERJEDSBWNHb1Ogeow"/>
+      </eAnnotations>
+    </generalization>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Class" xmi:id="_DrRfbmImEeaQWYccf8TWlQ" name="Departement">
+    <eAnnotations xmi:id="_DrRfb2ImEeaQWYccf8TWlQ" source="genmymodel">
+      <details xmi:id="_DrRfcGImEeaQWYccf8TWlQ" key="uuid" value="_jhgbQERJEDSBWNHb1Ogeow"/>
+    </eAnnotations>
+    <ownedAttribute xmi:id="_DrRfcWImEeaQWYccf8TWlQ" name="nom" visibility="private">
+      <eAnnotations xmi:id="_DrRfcmImEeaQWYccf8TWlQ" source="genmymodel">
+        <details xmi:id="_DrRfc2ImEeaQWYccf8TWlQ" key="uuid" value="_7DCy8ERJEDSBWNHb1Ogeow"/>
+      </eAnnotations>
+      <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//String"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Association" xmi:id="_DrRfdGImEeaQWYccf8TWlQ" name="ChefDepartement_Departement" memberEnd="_DrRfd2ImEeaQWYccf8TWlQ _DrRffGImEeaQWYccf8TWlQ" navigableOwnedEnd="_DrRfd2ImEeaQWYccf8TWlQ _DrRffGImEeaQWYccf8TWlQ">
+    <eAnnotations xmi:id="_DrRfdWImEeaQWYccf8TWlQ" source="genmymodel">
+      <details xmi:id="_DrRfdmImEeaQWYccf8TWlQ" key="uuid" value="_AB5SkkRKEDSBWNHb1Ogeow"/>
+    </eAnnotations>
+    <ownedEnd xmi:id="_DrRfd2ImEeaQWYccf8TWlQ" name="departement" type="_DrRfbmImEeaQWYccf8TWlQ" association="_DrRfdGImEeaQWYccf8TWlQ">
+      <eAnnotations xmi:id="_DrRfeGImEeaQWYccf8TWlQ" source="genmymodel">
+        <details xmi:id="_DrRfeWImEeaQWYccf8TWlQ" key="uuid" value="_AB5SkERKEDSBWNHb1Ogeow"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_DrRfemImEeaQWYccf8TWlQ" value="1"/>
+      <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_DrRfe2ImEeaQWYccf8TWlQ" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_DrRffGImEeaQWYccf8TWlQ" name="chefDepartement" type="_DrRfXGImEeaQWYccf8TWlQ" association="_DrRfdGImEeaQWYccf8TWlQ">
+      <eAnnotations xmi:id="_DrRffWImEeaQWYccf8TWlQ" source="genmymodel">
+        <details xmi:id="_DrRffmImEeaQWYccf8TWlQ" key="uuid" value="_AB5SkURKEDSBWNHb1Ogeow"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_DrRff2ImEeaQWYccf8TWlQ" value="1"/>
+      <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_DrRfgGImEeaQWYccf8TWlQ" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Association" xmi:id="_DrRfgWImEeaQWYccf8TWlQ" name="Auditeur_Departement2" memberEnd="_DrRfhGImEeaQWYccf8TWlQ _DrRfiWImEeaQWYccf8TWlQ" navigableOwnedEnd="_DrRfhGImEeaQWYccf8TWlQ _DrRfiWImEeaQWYccf8TWlQ">
+    <eAnnotations xmi:id="_DrRfgmImEeaQWYccf8TWlQ" source="genmymodel">
+      <details xmi:id="_DrRfg2ImEeaQWYccf8TWlQ" key="uuid" value="_JrMvIkRKEDSBWNHb1Ogeow"/>
+    </eAnnotations>
+    <ownedEnd xmi:id="_DrRfhGImEeaQWYccf8TWlQ" name="departement" type="_DrRfbmImEeaQWYccf8TWlQ" association="_DrRfgWImEeaQWYccf8TWlQ">
+      <eAnnotations xmi:id="_DrRfhWImEeaQWYccf8TWlQ" source="genmymodel">
+        <details xmi:id="_DrRfhmImEeaQWYccf8TWlQ" key="uuid" value="_JrMvIERKEDSBWNHb1Ogeow"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_DrRfh2ImEeaQWYccf8TWlQ" value="1"/>
+      <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_DrRfiGImEeaQWYccf8TWlQ" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_DrRfiWImEeaQWYccf8TWlQ" name="auditeur" type="_DrRfYmImEeaQWYccf8TWlQ" association="_DrRfgWImEeaQWYccf8TWlQ">
+      <eAnnotations xmi:id="_DrRfimImEeaQWYccf8TWlQ" source="genmymodel">
+        <details xmi:id="_DrRfi2ImEeaQWYccf8TWlQ" key="uuid" value="_JrMvIURKEDSBWNHb1Ogeow"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_DrRfjGImEeaQWYccf8TWlQ" value="1"/>
+      <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_DrRfjWImEeaQWYccf8TWlQ" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Class" xmi:id="_DrRfjmImEeaQWYccf8TWlQ" name="Cycle">
+    <eAnnotations xmi:id="_DrRfj2ImEeaQWYccf8TWlQ" source="genmymodel">
+      <details xmi:id="_DrRfkGImEeaQWYccf8TWlQ" key="uuid" value="_zWuLAERKEDSBWNHb1Ogeow"/>
+    </eAnnotations>
+    <ownedAttribute xmi:id="_DrRfkWImEeaQWYccf8TWlQ" name="libelle" visibility="private">
+      <eAnnotations xmi:id="_DrRfkmImEeaQWYccf8TWlQ" source="genmymodel">
+        <details xmi:id="_DrRfk2ImEeaQWYccf8TWlQ" key="uuid" value="_0P2ycERKEDSBWNHb1Ogeow"/>
+      </eAnnotations>
+      <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//String"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Association" xmi:id="_DrRflGImEeaQWYccf8TWlQ" name="Cycle_Surveillant" memberEnd="_DrRfl2ImEeaQWYccf8TWlQ _DrRfnGImEeaQWYccf8TWlQ" navigableOwnedEnd="_DrRfl2ImEeaQWYccf8TWlQ _DrRfnGImEeaQWYccf8TWlQ">
+    <eAnnotations xmi:id="_DrRflWImEeaQWYccf8TWlQ" source="genmymodel">
+      <details xmi:id="_DrRflmImEeaQWYccf8TWlQ" key="uuid" value="_2j1AMkRKEDSBWNHb1Ogeow"/>
+    </eAnnotations>
+    <ownedEnd xmi:id="_DrRfl2ImEeaQWYccf8TWlQ" name="surveillant" type="_DrRfaGImEeaQWYccf8TWlQ" association="_DrRflGImEeaQWYccf8TWlQ">
+      <eAnnotations xmi:id="_DrRfmGImEeaQWYccf8TWlQ" source="genmymodel">
+        <details xmi:id="_DrRfmWImEeaQWYccf8TWlQ" key="uuid" value="_2j1AMERKEDSBWNHb1Ogeow"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_DrRfmmImEeaQWYccf8TWlQ" value="1"/>
+      <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_DrRfm2ImEeaQWYccf8TWlQ" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_DrRfnGImEeaQWYccf8TWlQ" name="cycle" type="_DrRfjmImEeaQWYccf8TWlQ" association="_DrRflGImEeaQWYccf8TWlQ">
+      <eAnnotations xmi:id="_DrRfnWImEeaQWYccf8TWlQ" source="genmymodel">
+        <details xmi:id="_DrRfnmImEeaQWYccf8TWlQ" key="uuid" value="_2j1AMURKEDSBWNHb1Ogeow"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_DrRfn2ImEeaQWYccf8TWlQ" value="1"/>
+      <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_DrRfoGImEeaQWYccf8TWlQ" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Association" xmi:id="_DrRfoWImEeaQWYccf8TWlQ" name="Cycle_Departement" memberEnd="_DrRfpGImEeaQWYccf8TWlQ _DrRfqWImEeaQWYccf8TWlQ" navigableOwnedEnd="_DrRfpGImEeaQWYccf8TWlQ _DrRfqWImEeaQWYccf8TWlQ">
+    <eAnnotations xmi:id="_DrRfomImEeaQWYccf8TWlQ" source="genmymodel">
+      <details xmi:id="_DrRfo2ImEeaQWYccf8TWlQ" key="uuid" value="_3VS5YkRKEDSBWNHb1Ogeow"/>
+    </eAnnotations>
+    <ownedEnd xmi:id="_DrRfpGImEeaQWYccf8TWlQ" name="departement" type="_DrRfbmImEeaQWYccf8TWlQ" association="_DrRfoWImEeaQWYccf8TWlQ">
+      <eAnnotations xmi:id="_DrRfpWImEeaQWYccf8TWlQ" source="genmymodel">
+        <details xmi:id="_DrRfpmImEeaQWYccf8TWlQ" key="uuid" value="_3VS5YERKEDSBWNHb1Ogeow"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_DrRfp2ImEeaQWYccf8TWlQ" value="1"/>
+      <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_DrRfqGImEeaQWYccf8TWlQ" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_DrRfqWImEeaQWYccf8TWlQ" name="cycle" type="_DrRfjmImEeaQWYccf8TWlQ" association="_DrRfoWImEeaQWYccf8TWlQ">
+      <eAnnotations xmi:id="_DrRfqmImEeaQWYccf8TWlQ" source="genmymodel">
+        <details xmi:id="_DrRfq2ImEeaQWYccf8TWlQ" key="uuid" value="_3VS5YURKEDSBWNHb1Ogeow"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_DrRfrGImEeaQWYccf8TWlQ" value="1"/>
+      <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_DrRfrWImEeaQWYccf8TWlQ" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Class" xmi:id="_DrRfrmImEeaQWYccf8TWlQ" name="Classe">
+    <eAnnotations xmi:id="_DrRfr2ImEeaQWYccf8TWlQ" source="genmymodel">
+      <details xmi:id="_DrRfsGImEeaQWYccf8TWlQ" key="uuid" value="_Vy_x8ERLEDSBWNHb1Ogeow"/>
+    </eAnnotations>
+    <ownedAttribute xmi:id="_DrRfsWImEeaQWYccf8TWlQ" name="libelle" visibility="private">
+      <eAnnotations xmi:id="_DrRfsmImEeaQWYccf8TWlQ" source="genmymodel">
+        <details xmi:id="_DrRfs2ImEeaQWYccf8TWlQ" key="uuid" value="_WvaW4ERLEDSBWNHb1Ogeow"/>
+      </eAnnotations>
+      <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//String"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Association" xmi:id="_DrRftGImEeaQWYccf8TWlQ" name="Classe_Cycle2" memberEnd="_DrRft2ImEeaQWYccf8TWlQ _DrRfvGImEeaQWYccf8TWlQ" navigableOwnedEnd="_DrRft2ImEeaQWYccf8TWlQ _DrRfvGImEeaQWYccf8TWlQ">
+    <eAnnotations xmi:id="_DrRftWImEeaQWYccf8TWlQ" source="genmymodel">
+      <details xmi:id="_DrRftmImEeaQWYccf8TWlQ" key="uuid" value="_YeMz8URLEDSBWNHb1Ogeow"/>
+    </eAnnotations>
+    <ownedEnd xmi:id="_DrRft2ImEeaQWYccf8TWlQ" name="cycle" type="_DrRfjmImEeaQWYccf8TWlQ" association="_DrRftGImEeaQWYccf8TWlQ">
+      <eAnnotations xmi:id="_DrRfuGImEeaQWYccf8TWlQ" source="genmymodel">
+        <details xmi:id="_DrRfuWImEeaQWYccf8TWlQ" key="uuid" value="_YeMM4ERLEDSBWNHb1Ogeow"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_DrRfumImEeaQWYccf8TWlQ" value="1"/>
+      <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_DrRfu2ImEeaQWYccf8TWlQ" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_DrRfvGImEeaQWYccf8TWlQ" name="classe" type="_DrRfrmImEeaQWYccf8TWlQ" association="_DrRftGImEeaQWYccf8TWlQ">
+      <eAnnotations xmi:id="_DrRfvWImEeaQWYccf8TWlQ" source="genmymodel">
+        <details xmi:id="_DrRfvmImEeaQWYccf8TWlQ" key="uuid" value="_YeMz8ERLEDSBWNHb1Ogeow"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_DrRfv2ImEeaQWYccf8TWlQ" value="1"/>
+      <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_DrRfwGImEeaQWYccf8TWlQ" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Class" xmi:id="_DrRfwWImEeaQWYccf8TWlQ" name="Etudiant">
+    <eAnnotations xmi:id="_DrRfwmImEeaQWYccf8TWlQ" source="genmymodel">
+      <details xmi:id="_DrRfw2ImEeaQWYccf8TWlQ" key="uuid" value="_dkRV4ERLEDSBWNHb1Ogeow"/>
+    </eAnnotations>
+    <ownedAttribute xmi:id="_DrRfxGImEeaQWYccf8TWlQ" name="prenom" visibility="private">
+      <eAnnotations xmi:id="_DrRfxWImEeaQWYccf8TWlQ" source="genmymodel">
+        <details xmi:id="_DrRfxmImEeaQWYccf8TWlQ" key="uuid" value="_fzWckERLEDSBWNHb1Ogeow"/>
+      </eAnnotations>
+      <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_DrRfx2ImEeaQWYccf8TWlQ" name="nom" visibility="private">
+      <eAnnotations xmi:id="_DrRfyGImEeaQWYccf8TWlQ" source="genmymodel">
+        <details xmi:id="_DrRfyWImEeaQWYccf8TWlQ" key="uuid" value="_g_HFEERLEDSBWNHb1Ogeow"/>
+      </eAnnotations>
+      <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_DrRfymImEeaQWYccf8TWlQ" name="dateDeNaissance" visibility="private">
+      <eAnnotations xmi:id="_DrRfy2ImEeaQWYccf8TWlQ" source="genmymodel">
+        <details xmi:id="_DrRfzGImEeaQWYccf8TWlQ" key="uuid" value="_h-jI0ERLEDSBWNHb1Ogeow"/>
+      </eAnnotations>
+      <type xsi:type="uml:PrimitiveType" href="pathmap://GENMYMODEL_LIBRARIES/GenMyModelPrimitiveTypes.library.uml#//Date"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_DrRfzWImEeaQWYccf8TWlQ" name="lieuDeNaissance" visibility="private">
+      <eAnnotations xmi:id="_DrRfzmImEeaQWYccf8TWlQ" source="genmymodel">
+        <details xmi:id="_DrRfz2ImEeaQWYccf8TWlQ" key="uuid" value="_jbQ-cERLEDSBWNHb1Ogeow"/>
+      </eAnnotations>
+      <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_DrRf0GImEeaQWYccf8TWlQ" name="telephone" visibility="private">
+      <eAnnotations xmi:id="_DrRf0WImEeaQWYccf8TWlQ" source="genmymodel">
+        <details xmi:id="_DrRf0mImEeaQWYccf8TWlQ" key="uuid" value="_sz_oYERLEDSBWNHb1Ogeow"/>
+      </eAnnotations>
+      <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_DrRf02ImEeaQWYccf8TWlQ" name="adresse" visibility="private">
+      <eAnnotations xmi:id="_DrRf1GImEeaQWYccf8TWlQ" source="genmymodel">
+        <details xmi:id="_DrRf1WImEeaQWYccf8TWlQ" key="uuid" value="_ug4A8ERLEDSBWNHb1Ogeow"/>
+      </eAnnotations>
+      <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_DrRf1mImEeaQWYccf8TWlQ" name="email" visibility="private">
+      <eAnnotations xmi:id="_DrRf12ImEeaQWYccf8TWlQ" source="genmymodel">
+        <details xmi:id="_DrRf2GImEeaQWYccf8TWlQ" key="uuid" value="_wCwDYERLEDSBWNHb1Ogeow"/>
+      </eAnnotations>
+      <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//String"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xsi:type="uml:AssociationClass" xmi:id="_DrRf2WImEeaQWYccf8TWlQ" name="AnneeScolaire" memberEnd="_DrRf3GImEeaQWYccf8TWlQ _DrRf4WImEeaQWYccf8TWlQ" navigableOwnedEnd="_DrRf3GImEeaQWYccf8TWlQ _DrRf4WImEeaQWYccf8TWlQ">
+    <eAnnotations xmi:id="_DrRf2mImEeaQWYccf8TWlQ" source="genmymodel">
+      <details xmi:id="_DrRf22ImEeaQWYccf8TWlQ" key="uuid" value="_MldO4URMEDSBWNHb1Ogeow"/>
+    </eAnnotations>
+    <ownedEnd xmi:id="_DrRf3GImEeaQWYccf8TWlQ" name="classe" type="_DrRfrmImEeaQWYccf8TWlQ" association="_DrRf2WImEeaQWYccf8TWlQ">
+      <eAnnotations xmi:id="_DrRf3WImEeaQWYccf8TWlQ" source="genmymodel">
+        <details xmi:id="_DrRf3mImEeaQWYccf8TWlQ" key="uuid" value="_Mlcn0ERMEDSBWNHb1Ogeow"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_DrRf32ImEeaQWYccf8TWlQ" value="1"/>
+      <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_DrRf4GImEeaQWYccf8TWlQ" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_DrRf4WImEeaQWYccf8TWlQ" name="etudiant" type="_DrRfwWImEeaQWYccf8TWlQ" association="_DrRf2WImEeaQWYccf8TWlQ">
+      <eAnnotations xmi:id="_DrRf4mImEeaQWYccf8TWlQ" source="genmymodel">
+        <details xmi:id="_DrRf42ImEeaQWYccf8TWlQ" key="uuid" value="_MldO4ERMEDSBWNHb1Ogeow"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_DrRf5GImEeaQWYccf8TWlQ"/>
+      <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_DrRf5WImEeaQWYccf8TWlQ" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Class" xmi:id="_DrRf5mImEeaQWYccf8TWlQ" name="Formation">
+    <eAnnotations xmi:id="_DrRf52ImEeaQWYccf8TWlQ" source="genmymodel">
+      <details xmi:id="_DrRf6GImEeaQWYccf8TWlQ" key="uuid" value="_c7isgERMEDSBWNHb1Ogeow"/>
+    </eAnnotations>
+    <ownedAttribute xmi:id="_DrRf6WImEeaQWYccf8TWlQ" name="libelle" visibility="private">
+      <eAnnotations xmi:id="_DrRf6mImEeaQWYccf8TWlQ" source="genmymodel">
+        <details xmi:id="_DrRf62ImEeaQWYccf8TWlQ" key="uuid" value="_zVqBwERPEDSBWNHb1Ogeow"/>
+      </eAnnotations>
+      <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//String"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Class" xmi:id="_DrRf7GImEeaQWYccf8TWlQ" name="TypeFormation">
+    <eAnnotations xmi:id="_DrRf7WImEeaQWYccf8TWlQ" source="genmymodel">
+      <details xmi:id="_DrRf7mImEeaQWYccf8TWlQ" key="uuid" value="_eFmr4ERMEDSBWNHb1Ogeow"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Association" xmi:id="_DrRf72ImEeaQWYccf8TWlQ" name="TypeFormation_Formation" memberEnd="_DrRf8mImEeaQWYccf8TWlQ _DrRf92ImEeaQWYccf8TWlQ" navigableOwnedEnd="_DrRf8mImEeaQWYccf8TWlQ _DrRf92ImEeaQWYccf8TWlQ">
+    <eAnnotations xmi:id="_DrRf8GImEeaQWYccf8TWlQ" source="genmymodel">
+      <details xmi:id="_DrRf8WImEeaQWYccf8TWlQ" key="uuid" value="_gYoeckRMEDSBWNHb1Ogeow"/>
+    </eAnnotations>
+    <ownedEnd xmi:id="_DrRf8mImEeaQWYccf8TWlQ" name="formation" type="_DrRf5mImEeaQWYccf8TWlQ" association="_DrRf72ImEeaQWYccf8TWlQ">
+      <eAnnotations xmi:id="_DrRf82ImEeaQWYccf8TWlQ" source="genmymodel">
+        <details xmi:id="_DrRf9GImEeaQWYccf8TWlQ" key="uuid" value="_gYoecERMEDSBWNHb1Ogeow"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_DrRf9WImEeaQWYccf8TWlQ"/>
+      <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_DrRf9mImEeaQWYccf8TWlQ" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_DrRf92ImEeaQWYccf8TWlQ" name="typeFormation" type="_DrRf7GImEeaQWYccf8TWlQ" association="_DrRf72ImEeaQWYccf8TWlQ">
+      <eAnnotations xmi:id="_DrRf-GImEeaQWYccf8TWlQ" source="genmymodel">
+        <details xmi:id="_DrRf-WImEeaQWYccf8TWlQ" key="uuid" value="_gYoecURMEDSBWNHb1Ogeow"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_DrRf-mImEeaQWYccf8TWlQ" value="1"/>
+      <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_DrRf-2ImEeaQWYccf8TWlQ" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Association" xmi:id="_DrRf_GImEeaQWYccf8TWlQ" name="Cycle_Formation" memberEnd="_DrRf_2ImEeaQWYccf8TWlQ _DrRgBGImEeaQWYccf8TWlQ" navigableOwnedEnd="_DrRf_2ImEeaQWYccf8TWlQ _DrRgBGImEeaQWYccf8TWlQ">
+    <eAnnotations xmi:id="_DrRf_WImEeaQWYccf8TWlQ" source="genmymodel">
+      <details xmi:id="_DrRf_mImEeaQWYccf8TWlQ" key="uuid" value="_mVCLcURMEDSBWNHb1Ogeow"/>
+    </eAnnotations>
+    <ownedEnd xmi:id="_DrRf_2ImEeaQWYccf8TWlQ" name="formation" type="_DrRf5mImEeaQWYccf8TWlQ" association="_DrRf_GImEeaQWYccf8TWlQ">
+      <eAnnotations xmi:id="_DrRgAGImEeaQWYccf8TWlQ" source="genmymodel">
+        <details xmi:id="_DrRgAWImEeaQWYccf8TWlQ" key="uuid" value="_mVBkYERMEDSBWNHb1Ogeow"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_DrRgAmImEeaQWYccf8TWlQ" value="1"/>
+      <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_DrRgA2ImEeaQWYccf8TWlQ" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_DrRgBGImEeaQWYccf8TWlQ" name="cycle" type="_DrRfjmImEeaQWYccf8TWlQ" association="_DrRf_GImEeaQWYccf8TWlQ">
+      <eAnnotations xmi:id="_DrRgBWImEeaQWYccf8TWlQ" source="genmymodel">
+        <details xmi:id="_DrRgBmImEeaQWYccf8TWlQ" key="uuid" value="_mVCLcERMEDSBWNHb1Ogeow"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_DrRgB2ImEeaQWYccf8TWlQ" value="1"/>
+      <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_DrRgCGImEeaQWYccf8TWlQ" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Class" xmi:id="_DrRgCWImEeaQWYccf8TWlQ" name="Cours">
+    <eAnnotations xmi:id="_DrRgCmImEeaQWYccf8TWlQ" source="genmymodel">
+      <details xmi:id="_DrRgC2ImEeaQWYccf8TWlQ" key="uuid" value="_yg980ERMEDSBWNHb1Ogeow"/>
+    </eAnnotations>
+    <ownedAttribute xmi:id="_DrRgDGImEeaQWYccf8TWlQ" name="date" visibility="private">
+      <eAnnotations xmi:id="_DrRgDWImEeaQWYccf8TWlQ" source="genmymodel">
+        <details xmi:id="_DrRgDmImEeaQWYccf8TWlQ" key="uuid" value="_0tmzgERMEDSBWNHb1Ogeow"/>
+      </eAnnotations>
+      <type xsi:type="uml:PrimitiveType" href="pathmap://GENMYMODEL_LIBRARIES/GenMyModelPrimitiveTypes.library.uml#//Date"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_DrRgD2ImEeaQWYccf8TWlQ" name="contenu" visibility="private">
+      <eAnnotations xmi:id="_DrRgEGImEeaQWYccf8TWlQ" source="genmymodel">
+        <details xmi:id="_DrRgEWImEeaQWYccf8TWlQ" key="uuid" value="_1ss5AERMEDSBWNHb1Ogeow"/>
+      </eAnnotations>
+      <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_DrRgEmImEeaQWYccf8TWlQ" name="heureDebut" visibility="private">
+      <eAnnotations xmi:id="_DrRgE2ImEeaQWYccf8TWlQ" source="genmymodel">
+        <details xmi:id="_DrRgFGImEeaQWYccf8TWlQ" key="uuid" value="_2xvOcERMEDSBWNHb1Ogeow"/>
+      </eAnnotations>
+      <type xsi:type="uml:PrimitiveType" href="pathmap://GENMYMODEL_LIBRARIES/GenMyModelPrimitiveTypes.library.uml#//Date"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_DrRgFWImEeaQWYccf8TWlQ" name="heureFin" visibility="private">
+      <eAnnotations xmi:id="_DrRgFmImEeaQWYccf8TWlQ" source="genmymodel">
+        <details xmi:id="_DrRgF2ImEeaQWYccf8TWlQ" key="uuid" value="_4BZfgERMEDSBWNHb1Ogeow"/>
+      </eAnnotations>
+      <type xsi:type="uml:PrimitiveType" href="pathmap://GENMYMODEL_LIBRARIES/GenMyModelPrimitiveTypes.library.uml#//Date"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xsi:type="uml:AssociationClass" xmi:id="_DrRgGGImEeaQWYccf8TWlQ" name="Absence" memberEnd="_DrRgG2ImEeaQWYccf8TWlQ _DrRgIGImEeaQWYccf8TWlQ" navigableOwnedEnd="_DrRgG2ImEeaQWYccf8TWlQ _DrRgIGImEeaQWYccf8TWlQ">
+    <eAnnotations xmi:id="_DrRgGWImEeaQWYccf8TWlQ" source="genmymodel">
+      <details xmi:id="_DrRgGmImEeaQWYccf8TWlQ" key="uuid" value="_7R4_4kRMEDSBWNHb1Ogeow"/>
+    </eAnnotations>
+    <ownedEnd xmi:id="_DrRgG2ImEeaQWYccf8TWlQ" name="cours" type="_DrRgCWImEeaQWYccf8TWlQ" association="_DrRgGGImEeaQWYccf8TWlQ">
+      <eAnnotations xmi:id="_DrRgHGImEeaQWYccf8TWlQ" source="genmymodel">
+        <details xmi:id="_DrRgHWImEeaQWYccf8TWlQ" key="uuid" value="_7R4_4ERMEDSBWNHb1Ogeow"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_DrRgHmImEeaQWYccf8TWlQ"/>
+      <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_DrRgH2ImEeaQWYccf8TWlQ" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_DrRgIGImEeaQWYccf8TWlQ" name="etudiant" type="_DrRfwWImEeaQWYccf8TWlQ" association="_DrRgGGImEeaQWYccf8TWlQ">
+      <eAnnotations xmi:id="_DrRgIWImEeaQWYccf8TWlQ" source="genmymodel">
+        <details xmi:id="_DrRgImImEeaQWYccf8TWlQ" key="uuid" value="_7R4_4URMEDSBWNHb1Ogeow"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_DrRgI2ImEeaQWYccf8TWlQ" value="1"/>
+      <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_DrRgJGImEeaQWYccf8TWlQ" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Association" xmi:id="_DrRgJWImEeaQWYccf8TWlQ" name="Cours_Classe" memberEnd="_DrRgKGImEeaQWYccf8TWlQ _DrRgLWImEeaQWYccf8TWlQ" navigableOwnedEnd="_DrRgKGImEeaQWYccf8TWlQ _DrRgLWImEeaQWYccf8TWlQ">
+    <eAnnotations xmi:id="_DrRgJmImEeaQWYccf8TWlQ" source="genmymodel">
+      <details xmi:id="_DrRgJ2ImEeaQWYccf8TWlQ" key="uuid" value="_GslhkERNEDSBWNHb1Ogeow"/>
+    </eAnnotations>
+    <ownedEnd xmi:id="_DrRgKGImEeaQWYccf8TWlQ" name="classe" type="_DrRfrmImEeaQWYccf8TWlQ" association="_DrRgJWImEeaQWYccf8TWlQ">
+      <eAnnotations xmi:id="_DrRgKWImEeaQWYccf8TWlQ" source="genmymodel">
+        <details xmi:id="_DrRgKmImEeaQWYccf8TWlQ" key="uuid" value="_Gsk6gERNEDSBWNHb1Ogeow"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_DrRgK2ImEeaQWYccf8TWlQ" value="1"/>
+      <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_DrRgLGImEeaQWYccf8TWlQ" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_DrRgLWImEeaQWYccf8TWlQ" name="cours" type="_DrRgCWImEeaQWYccf8TWlQ" association="_DrRgJWImEeaQWYccf8TWlQ">
+      <eAnnotations xmi:id="_DrRgLmImEeaQWYccf8TWlQ" source="genmymodel">
+        <details xmi:id="_DrRgL2ImEeaQWYccf8TWlQ" key="uuid" value="_Gsk6gURNEDSBWNHb1Ogeow"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_DrRgMGImEeaQWYccf8TWlQ" value="1"/>
+      <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_DrRgMWImEeaQWYccf8TWlQ" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Class" xmi:id="_DrRgMmImEeaQWYccf8TWlQ" name="Module">
+    <eAnnotations xmi:id="_DrRgM2ImEeaQWYccf8TWlQ" source="genmymodel">
+      <details xmi:id="_DrRgNGImEeaQWYccf8TWlQ" key="uuid" value="_cg0C4ERNEDSBWNHb1Ogeow"/>
+    </eAnnotations>
+    <ownedAttribute xmi:id="_DrRgNWImEeaQWYccf8TWlQ" name="libelle" visibility="private">
+      <eAnnotations xmi:id="_DrRgNmImEeaQWYccf8TWlQ" source="genmymodel">
+        <details xmi:id="_DrRgN2ImEeaQWYccf8TWlQ" key="uuid" value="_fcRucERNEDSBWNHb1Ogeow"/>
+      </eAnnotations>
+      <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//String"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Association" xmi:id="_DrRgOGImEeaQWYccf8TWlQ" name="Module_Cours" memberEnd="_DrRgO2ImEeaQWYccf8TWlQ _DrRgQGImEeaQWYccf8TWlQ" navigableOwnedEnd="_DrRgO2ImEeaQWYccf8TWlQ _DrRgQGImEeaQWYccf8TWlQ">
+    <eAnnotations xmi:id="_DrRgOWImEeaQWYccf8TWlQ" source="genmymodel">
+      <details xmi:id="_DrRgOmImEeaQWYccf8TWlQ" key="uuid" value="_ARbKEURPEDSBWNHb1Ogeow"/>
+    </eAnnotations>
+    <ownedEnd xmi:id="_DrRgO2ImEeaQWYccf8TWlQ" name="cours" type="_DrRgCWImEeaQWYccf8TWlQ" association="_DrRgOGImEeaQWYccf8TWlQ">
+      <eAnnotations xmi:id="_DrRgPGImEeaQWYccf8TWlQ" source="genmymodel">
+        <details xmi:id="_DrRgPWImEeaQWYccf8TWlQ" key="uuid" value="_ARajAERPEDSBWNHb1Ogeow"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_DrRgPmImEeaQWYccf8TWlQ" value="1"/>
+      <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_DrRgP2ImEeaQWYccf8TWlQ" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_DrRgQGImEeaQWYccf8TWlQ" name="module" type="_DrRgMmImEeaQWYccf8TWlQ" association="_DrRgOGImEeaQWYccf8TWlQ">
+      <eAnnotations xmi:id="_DrRgQWImEeaQWYccf8TWlQ" source="genmymodel">
+        <details xmi:id="_DrRgQmImEeaQWYccf8TWlQ" key="uuid" value="_ARbKEERPEDSBWNHb1Ogeow"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_DrRgQ2ImEeaQWYccf8TWlQ" value="1"/>
+      <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_DrRgRGImEeaQWYccf8TWlQ" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xsi:type="uml:AssociationClass" xmi:id="_DrRgRWImEeaQWYccf8TWlQ" name="ModuleClasse" memberEnd="_DrRgTmImEeaQWYccf8TWlQ _DrRgU2ImEeaQWYccf8TWlQ" navigableOwnedEnd="_DrRgTmImEeaQWYccf8TWlQ _DrRgU2ImEeaQWYccf8TWlQ">
+    <eAnnotations xmi:id="_DrRgRmImEeaQWYccf8TWlQ" source="genmymodel">
+      <details xmi:id="_DrRgR2ImEeaQWYccf8TWlQ" key="uuid" value="_RBktgURPEDSBWNHb1Ogeow"/>
+    </eAnnotations>
+    <ownedAttribute xmi:id="_DrRgSGImEeaQWYccf8TWlQ" name="volumeHoraire" visibility="private">
+      <eAnnotations xmi:id="_DrRgSWImEeaQWYccf8TWlQ" source="genmymodel">
+        <details xmi:id="_DrRgSmImEeaQWYccf8TWlQ" key="uuid" value="_i792gERPEDSBWNHb1Ogeow"/>
+      </eAnnotations>
+      <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_DrRgS2ImEeaQWYccf8TWlQ" name="coefficient" visibility="private">
+      <eAnnotations xmi:id="_DrRgTGImEeaQWYccf8TWlQ" source="genmymodel">
+        <details xmi:id="_DrRgTWImEeaQWYccf8TWlQ" key="uuid" value="_kz5BcERPEDSBWNHb1Ogeow"/>
+      </eAnnotations>
+      <type xsi:type="uml:PrimitiveType" href="pathmap://GENMYMODEL_LIBRARIES/GenMyModelPrimitiveTypes.library.uml#//Float"/>
+    </ownedAttribute>
+    <ownedEnd xmi:id="_DrRgTmImEeaQWYccf8TWlQ" name="module" type="_DrRgMmImEeaQWYccf8TWlQ" association="_DrRgRWImEeaQWYccf8TWlQ">
+      <eAnnotations xmi:id="_DrRgT2ImEeaQWYccf8TWlQ" source="genmymodel">
+        <details xmi:id="_DrRgUGImEeaQWYccf8TWlQ" key="uuid" value="_RBkGcERPEDSBWNHb1Ogeow"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_DrRgUWImEeaQWYccf8TWlQ" value="1"/>
+      <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_DrRgUmImEeaQWYccf8TWlQ" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_DrRgU2ImEeaQWYccf8TWlQ" name="classe" type="_DrRfrmImEeaQWYccf8TWlQ" association="_DrRgRWImEeaQWYccf8TWlQ">
+      <eAnnotations xmi:id="_DrRgVGImEeaQWYccf8TWlQ" source="genmymodel">
+        <details xmi:id="_DrRgVWImEeaQWYccf8TWlQ" key="uuid" value="_RBktgERPEDSBWNHb1Ogeow"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_DrRgVmImEeaQWYccf8TWlQ" value="1"/>
+      <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_DrRgV2ImEeaQWYccf8TWlQ" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Association" xmi:id="_DrRgWGImEeaQWYccf8TWlQ" name="ModuleClasse_Formation" memberEnd="_DrRgW2ImEeaQWYccf8TWlQ _DrRgYGImEeaQWYccf8TWlQ" navigableOwnedEnd="_DrRgW2ImEeaQWYccf8TWlQ _DrRgYGImEeaQWYccf8TWlQ">
+    <eAnnotations xmi:id="_DrRgWWImEeaQWYccf8TWlQ" source="genmymodel">
+      <details xmi:id="_DrRgWmImEeaQWYccf8TWlQ" key="uuid" value="_q1y5gERPEDSBWNHb1Ogeow"/>
+    </eAnnotations>
+    <ownedEnd xmi:id="_DrRgW2ImEeaQWYccf8TWlQ" name="formation" type="_DrRf5mImEeaQWYccf8TWlQ" association="_DrRgWGImEeaQWYccf8TWlQ">
+      <eAnnotations xmi:id="_DrRgXGImEeaQWYccf8TWlQ" source="genmymodel">
+        <details xmi:id="_DrRgXWImEeaQWYccf8TWlQ" key="uuid" value="_q1yScERPEDSBWNHb1Ogeow"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_DrRgXmImEeaQWYccf8TWlQ" value="1"/>
+      <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_DrRgX2ImEeaQWYccf8TWlQ" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_DrRgYGImEeaQWYccf8TWlQ" name="moduleClasse" type="_DrRgRWImEeaQWYccf8TWlQ" association="_DrRgWGImEeaQWYccf8TWlQ">
+      <eAnnotations xmi:id="_DrRgYWImEeaQWYccf8TWlQ" source="genmymodel">
+        <details xmi:id="_DrRgYmImEeaQWYccf8TWlQ" key="uuid" value="_q1yScURPEDSBWNHb1Ogeow"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_DrRgY2ImEeaQWYccf8TWlQ"/>
+      <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_DrRgZGImEeaQWYccf8TWlQ" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Class" xmi:id="_DrRgZWImEeaQWYccf8TWlQ" name="Enseignant">
+    <eAnnotations xmi:id="_DrRgZmImEeaQWYccf8TWlQ" source="genmymodel">
+      <details xmi:id="_DrRgZ2ImEeaQWYccf8TWlQ" key="uuid" value="__Rh94ERPEDSBWNHb1Ogeow"/>
+    </eAnnotations>
+    <ownedAttribute xmi:id="_DrRgaGImEeaQWYccf8TWlQ" name="prenom" visibility="private">
+      <eAnnotations xmi:id="_DrRgaWImEeaQWYccf8TWlQ" source="genmymodel">
+        <details xmi:id="_DrRgamImEeaQWYccf8TWlQ" key="uuid" value="_Bk-nMERQEDSBWNHb1Ogeow"/>
+      </eAnnotations>
+      <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_DrRga2ImEeaQWYccf8TWlQ" name="nom" visibility="private">
+      <eAnnotations xmi:id="_DrRgbGImEeaQWYccf8TWlQ" source="genmymodel">
+        <details xmi:id="_DrRgbWImEeaQWYccf8TWlQ" key="uuid" value="_CqsSEERQEDSBWNHb1Ogeow"/>
+      </eAnnotations>
+      <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_DrRgbmImEeaQWYccf8TWlQ" name="telephone" visibility="private">
+      <eAnnotations xmi:id="_DrRgb2ImEeaQWYccf8TWlQ" source="genmymodel">
+        <details xmi:id="_DrRgcGImEeaQWYccf8TWlQ" key="uuid" value="_DktqUERQEDSBWNHb1Ogeow"/>
+      </eAnnotations>
+      <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_DrRgcWImEeaQWYccf8TWlQ" name="email" visibility="private">
+      <eAnnotations xmi:id="_DrRgcmImEeaQWYccf8TWlQ" source="genmymodel">
+        <details xmi:id="_DrRgc2ImEeaQWYccf8TWlQ" key="uuid" value="_E9vSwERQEDSBWNHb1Ogeow"/>
+      </eAnnotations>
+      <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_DrRgdGImEeaQWYccf8TWlQ" name="CV" visibility="private">
+      <eAnnotations xmi:id="_DrRgdWImEeaQWYccf8TWlQ" source="genmymodel">
+        <details xmi:id="_DrRgdmImEeaQWYccf8TWlQ" key="uuid" value="_FsICwERQEDSBWNHb1Ogeow"/>
+      </eAnnotations>
+      <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//String"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Association" xmi:id="_DrRgd2ImEeaQWYccf8TWlQ" name="Enseignant_Module" memberEnd="_DrRgemImEeaQWYccf8TWlQ _DrRgf2ImEeaQWYccf8TWlQ" navigableOwnedEnd="_DrRgemImEeaQWYccf8TWlQ _DrRgf2ImEeaQWYccf8TWlQ">
+    <eAnnotations xmi:id="_DrRgeGImEeaQWYccf8TWlQ" source="genmymodel">
+      <details xmi:id="_DrRgeWImEeaQWYccf8TWlQ" key="uuid" value="_JjJ-sURQEDSBWNHb1Ogeow"/>
+    </eAnnotations>
+    <ownedEnd xmi:id="_DrRgemImEeaQWYccf8TWlQ" name="peutEnseigner" type="_DrRgMmImEeaQWYccf8TWlQ" association="_DrRgd2ImEeaQWYccf8TWlQ">
+      <eAnnotations xmi:id="_DrRge2ImEeaQWYccf8TWlQ" source="genmymodel">
+        <details xmi:id="_DrRgfGImEeaQWYccf8TWlQ" key="uuid" value="_JjJXoERQEDSBWNHb1Ogeow"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_DrRgfWImEeaQWYccf8TWlQ" value="1"/>
+      <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_DrRgfmImEeaQWYccf8TWlQ" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_DrRgf2ImEeaQWYccf8TWlQ" name="enseignant" type="_DrRgZWImEeaQWYccf8TWlQ" association="_DrRgd2ImEeaQWYccf8TWlQ">
+      <eAnnotations xmi:id="_DrRggGImEeaQWYccf8TWlQ" source="genmymodel">
+        <details xmi:id="_DrRggWImEeaQWYccf8TWlQ" key="uuid" value="_JjJ-sERQEDSBWNHb1Ogeow"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_DrRggmImEeaQWYccf8TWlQ"/>
+      <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_DrRgg2ImEeaQWYccf8TWlQ" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xsi:type="uml:AssociationClass" xmi:id="_DrRghGImEeaQWYccf8TWlQ" name="ModuleEnseignant" memberEnd="_DrRgjWImEeaQWYccf8TWlQ _DrRgkmImEeaQWYccf8TWlQ" navigableOwnedEnd="_DrRgjWImEeaQWYccf8TWlQ _DrRgkmImEeaQWYccf8TWlQ">
+    <eAnnotations xmi:id="_DrRghWImEeaQWYccf8TWlQ" source="genmymodel">
+      <details xmi:id="_DrRghmImEeaQWYccf8TWlQ" key="uuid" value="_c3yREURQEDSBWNHb1Ogeow"/>
+    </eAnnotations>
+    <ownedAttribute xmi:id="_DrRgh2ImEeaQWYccf8TWlQ" name="annee" visibility="private">
+      <eAnnotations xmi:id="_DrRgiGImEeaQWYccf8TWlQ" source="genmymodel">
+        <details xmi:id="_DrRgiWImEeaQWYccf8TWlQ" key="uuid" value="_0ofGIERQEDSBWNHb1Ogeow"/>
+      </eAnnotations>
+      <type xsi:type="uml:PrimitiveType" href="pathmap://GENMYMODEL_LIBRARIES/GenMyModelPrimitiveTypes.library.uml#//Date"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_DrRgimImEeaQWYccf8TWlQ" name="tauxHoraire" visibility="private">
+      <eAnnotations xmi:id="_DrRgi2ImEeaQWYccf8TWlQ" source="genmymodel">
+        <details xmi:id="_DrRgjGImEeaQWYccf8TWlQ" key="uuid" value="_1eKw8ERQEDSBWNHb1Ogeow"/>
+      </eAnnotations>
+      <type xsi:type="uml:PrimitiveType" href="pathmap://GENMYMODEL_LIBRARIES/GenMyModelPrimitiveTypes.library.uml#//Float"/>
+    </ownedAttribute>
+    <ownedEnd xmi:id="_DrRgjWImEeaQWYccf8TWlQ" name="enseignant" type="_DrRgZWImEeaQWYccf8TWlQ" association="_DrRghGImEeaQWYccf8TWlQ">
+      <eAnnotations xmi:id="_DrRgjmImEeaQWYccf8TWlQ" source="genmymodel">
+        <details xmi:id="_DrRgj2ImEeaQWYccf8TWlQ" key="uuid" value="_c3xqAERQEDSBWNHb1Ogeow"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_DrRgkGImEeaQWYccf8TWlQ"/>
+      <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_DrRgkWImEeaQWYccf8TWlQ" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_DrRgkmImEeaQWYccf8TWlQ" name="enseigne" type="_DrRgMmImEeaQWYccf8TWlQ" association="_DrRghGImEeaQWYccf8TWlQ">
+      <eAnnotations xmi:id="_DrRgk2ImEeaQWYccf8TWlQ" source="genmymodel">
+        <details xmi:id="_DrRglGImEeaQWYccf8TWlQ" key="uuid" value="_c3yREERQEDSBWNHb1Ogeow"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_DrRglWImEeaQWYccf8TWlQ" value="1"/>
+      <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_DrRglmImEeaQWYccf8TWlQ" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Association" xmi:id="_DrRgl2ImEeaQWYccf8TWlQ" name="Enseignant_Cours" memberEnd="_DrRgmmImEeaQWYccf8TWlQ _DrRgn2ImEeaQWYccf8TWlQ" navigableOwnedEnd="_DrRgmmImEeaQWYccf8TWlQ _DrRgn2ImEeaQWYccf8TWlQ">
+    <eAnnotations xmi:id="_DrRgmGImEeaQWYccf8TWlQ" source="genmymodel">
+      <details xmi:id="_DrRgmWImEeaQWYccf8TWlQ" key="uuid" value="__0V6kERQEDSBWNHb1Ogeow"/>
+    </eAnnotations>
+    <ownedEnd xmi:id="_DrRgmmImEeaQWYccf8TWlQ" name="cours" type="_DrRgCWImEeaQWYccf8TWlQ" association="_DrRgl2ImEeaQWYccf8TWlQ">
+      <eAnnotations xmi:id="_DrRgm2ImEeaQWYccf8TWlQ" source="genmymodel">
+        <details xmi:id="_DrRgnGImEeaQWYccf8TWlQ" key="uuid" value="__0UscERQEDSBWNHb1Ogeow"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_DrRgnWImEeaQWYccf8TWlQ" value="1"/>
+      <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_DrRgnmImEeaQWYccf8TWlQ" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_DrRgn2ImEeaQWYccf8TWlQ" name="enseignant" type="_DrRgZWImEeaQWYccf8TWlQ" association="_DrRgl2ImEeaQWYccf8TWlQ">
+      <eAnnotations xmi:id="_DrRgoGImEeaQWYccf8TWlQ" source="genmymodel">
+        <details xmi:id="_DrRgoWImEeaQWYccf8TWlQ" key="uuid" value="__0VTgERQEDSBWNHb1Ogeow"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_DrRgomImEeaQWYccf8TWlQ" value="1"/>
+      <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_DrRgo2ImEeaQWYccf8TWlQ" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+</uml:Model>
